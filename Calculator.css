@@ -1,0 +1,39 @@
+body{
+    background-color: wheat;
+}
+h1{
+    text-align: center;
+}
+#display{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 18px;
+}
+.calculator{
+    width: 300px;
+    margin: 0 auto;
+    background-color:whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px grey;
+
+}
+button{
+    width: 23%;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: grey;
+    box-shadow: 5px 5px 5px lightblue;
+    cursor: pointer;
+}
+button:hover{
+    background-color: lightcyan;
+    color: red
+}
